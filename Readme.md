@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ConditionalFormatting.cs](./CS/ConditionalFormatting_WPF_Examples/SpreadsheetActions/ConditionalFormatting.cs)
+<!-- default file list end -->
 # How to apply conditional formatting to a range of cells (WPF Spreadsheet)
 
 
