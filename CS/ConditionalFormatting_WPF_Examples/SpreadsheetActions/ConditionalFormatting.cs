@@ -49,7 +49,7 @@ namespace ConditionalFormatting_WPF_Examples {
                 cfRule2.Formatting.Font.Color = Color.BlueViolet;
                 #endregion #AverageConditionalFormatting
                 // Add an explanation to the created rule.
-                Range ruleExplanation = worksheet.Range["A17:G18"];
+                CellRange ruleExplanation = worksheet.Range["A17:G18"];
                 ruleExplanation.Value = "Determine cost values that are above the average in the first quarter and one standard deviation below the mean in the second quarter.";
             }
             finally
@@ -76,7 +76,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Font.Color = Color.Red;
             #endregion #RangeConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A17:G18"];
+            CellRange ruleExplanation = worksheet.Range["A17:G18"];
             ruleExplanation.Value = "Identify book prices that are below $7 and above $19.";
             }
             finally
@@ -105,7 +105,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Font.Color = Color.White;
             #endregion #RankConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A17:G18"];
+            CellRange ruleExplanation = worksheet.Range["A17:G18"];
             ruleExplanation.Value = "Identify the top three price values.";
             }
             finally
@@ -130,7 +130,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Fill.BackgroundColor = Color.FromArgb(255, 0xE1, 0x95, 0xC2);
             #endregion #TextConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A17:G18"];
+            CellRange ruleExplanation = worksheet.Range["A17:G18"];
             ruleExplanation.Value = "Quickly find books written by Ray Bradbury.";
         }
             finally
@@ -156,7 +156,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Fill.BackgroundColor = Color.FromArgb(255, 0xFA, 0xF7, 0xAA);
             #endregion #SpecialConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A17:G18"];
+            CellRange ruleExplanation = worksheet.Range["A17:G18"];
             ruleExplanation.Value = "In a list of authors quickly identify unique values.";
          }
             finally
@@ -183,7 +183,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Fill.BackgroundColor = Color.FromArgb(255, 0xF2, 0xAE, 0xE3);
             #endregion #TimePeriodConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A8:B9"];
+            CellRange ruleExplanation = worksheet.Range["A8:B9"];
             ruleExplanation.Value = "Determine the today's task in the TO DO list.";
         }
             finally
@@ -212,7 +212,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Font.Color = Color.Red;
             #endregion #ExpressionConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A17:G18"];
+            CellRange ruleExplanation = worksheet.Range["A17:G18"];
             ruleExplanation.Value = "Identify book prices that are greater than the average price.";
             }
             finally
@@ -238,7 +238,7 @@ namespace ConditionalFormatting_WPF_Examples {
             cfRule.Formatting.Fill.BackgroundColor = Color.FromArgb(255, 0xBC, 0xDA, 0xF7);
             #endregion #FormulaExpressionConditionalFormatting
             // Add an explanation to the created rule.
-            Range ruleExplanation = worksheet.Range["A17:G18"];
+            CellRange ruleExplanation = worksheet.Range["A17:G18"];
             ruleExplanation.Value = "Shade alternate rows in light blue without applying a new style.";
          }
             finally
@@ -265,7 +265,7 @@ namespace ConditionalFormatting_WPF_Examples {
                 ColorScale2ConditionalFormatting cfRule = conditionalFormattings.AddColorScale2ConditionalFormatting(worksheet.Range["$C$2:$D$15"], minPoint, Color.FromArgb(255, 0x9D, 0xE9, 0xFA), maxPoint, Color.FromArgb(255, 0xFF, 0xF6, 0xA9));
                 #endregion #ColorScale2ConditionalFormatting
                 // Add an explanation to the created rule.
-                Range ruleExplanation = worksheet.Range["A17:G18"];
+                CellRange ruleExplanation = worksheet.Range["A17:G18"];
                 ruleExplanation.Value = "Examine cost distribution using a gradation of two colors. Blue represents the lower values and yellow represents the higher values.";
             }
             finally
@@ -294,7 +294,7 @@ namespace ConditionalFormatting_WPF_Examples {
                 ColorScale3ConditionalFormatting cfRule = conditionalFormattings.AddColorScale3ConditionalFormatting(worksheet.Range["$C$2:$D$15"], minPoint, Color.Red, midPoint, Color.Yellow, maxPoint, Color.SkyBlue);
                 #endregion #ColorScale3ConditionalFormatting
                 // Add an explanation to the created rule.
-                Range ruleExplanation = worksheet.Range["A17:G18"];
+                CellRange ruleExplanation = worksheet.Range["A17:G18"];
                 ruleExplanation.Value = "Examine cost distribution using a gradation of three colors. Red represents the lower values, yellow represents the medium values and sky blue represents the higher values.";
             }
             finally
@@ -344,7 +344,7 @@ namespace ConditionalFormatting_WPF_Examples {
                 cfRule2.ShowValue = false;
                 #endregion #DataBarConditionalFormatting
                 // Add an explanation to the created rule.
-                Range ruleExplanation = worksheet.Range["A17:G18"];
+                CellRange ruleExplanation = worksheet.Range["A17:G18"];
                 ruleExplanation.Value = "Compare values in the \"Cost Trend\" and \"Markup\" columns using data bars.";
             }
             finally
@@ -385,7 +385,7 @@ namespace ConditionalFormatting_WPF_Examples {
                 cfRule.ShowValue = false;
                 #endregion #IconSetConditionalFormatting
                 // Add an explanation to the created rule.
-                Range ruleExplanation = worksheet.Range["A17:G18"];
+                CellRange ruleExplanation = worksheet.Range["A17:G18"];
                 ruleExplanation.Value = "Identify upward and downward cost trends.";
             }
             finally
