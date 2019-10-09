@@ -4,9 +4,10 @@
     xmlns:dxnt="http://schemas.devexpress.com/winfx/2008/xaml/navbar/themekeys"
     xmlns:dxsps="http://schemas.devexpress.com/winfx/2008/xaml/spreadsheet" 
     xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
-    xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar" 
-    x:Class="ConditionalFormatting_WPF_Examples_VB.MainWindow"
-        Title="MainWindow" Height="600" Width="1140">
+    xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    x:Class="ConditionalFormatting_WPF_Examples.MainWindow"
+            Title="MainWindow" Height="600" Width="1140">
 
     <Window.Resources>
         <Style TargetType="dxn:NavBarGroup">
@@ -44,4 +45,6 @@
         <dxsps:SpreadsheetControl x:Name="spreadsheetControl1" Grid.Column="1" Grid.Row="1" />
 
     </Grid>
+
+
 </Window>
