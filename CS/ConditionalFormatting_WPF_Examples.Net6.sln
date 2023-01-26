@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalFormatting_WPF_Examples.Net6", "ConditionalFormatting_WPF_Examples\ConditionalFormatting_WPF_Examples.Net6.csproj", "{CED85B19-D636-41A3-86BE-19243BC1EB61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED85B19-D636-41A3-86BE-19243BC1EB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED85B19-D636-41A3-86BE-19243BC1EB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED85B19-D636-41A3-86BE-19243BC1EB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED85B19-D636-41A3-86BE-19243BC1EB61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D082217-9884-43E8-B1FB-AABD86ECB623}
+	EndGlobalSection
+EndGlobal
